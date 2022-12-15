@@ -9,4 +9,4 @@ export AWS_REGION=us-east-1
 export AWS_PROFILE=todouser
 export JWT_SECRET=testing
 export URL=http://localhost:8100
-# eksctl create cluster --name my-cluster --region region-code --fargate
+# eksctl create cluster --name p3-cluster --region us-east-1

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: 's3-vianney-p3'
+  AWS_PROFILE: 'todouser'
+  AWS_REGION: 'us-east-1'
+  JWT_SECRET: 'testing'
+  POSTGRES_DB: 'postgres'
+  POSTGRES_HOST: 'p3-db.cwl2x5iqaxlj.us-east-1.rds.amazonaws.com' 
+metadata:
+  name: env-config
