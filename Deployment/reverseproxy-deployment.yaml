@@ -14,13 +14,13 @@ spec:
         run: reverseproxy
     spec:
       containers:
-      - name: reverseproxy
-        image: vianney007/reverseproxy
-        ports:
-        - containerPort: 80
-        resources:
-          limits:
-            memory: 512Mi
-            cpu: 1000m
-          requests:
-            cpu: 500m
+        - name: reverseproxy
+          image: vianney007/reverseproxy
+          ports:
+          - containerPort: 80
+          resources:
+            limits:
+              memory: 512Mi
+              cpu: 1000m
+            requests:
+              cpu: 500m
